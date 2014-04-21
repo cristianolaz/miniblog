@@ -1,0 +1,33 @@
+{% extends "admin/template.twig" %}
+{% block content %}
+
+<div>
+	<ol class="breadcrumb">
+		<li><a href="{{ path( 'admin/dashboard' ) }}">Dashboard</a></li>
+		<li>Comments</li>
+		<li>Update</li>
+		<li class="active">{{ comment.content|slice(0,20) }}</li>
+	</ol>
+</div>
+
+{% for message in app.session.getFlashBag.get('validation.comment') %}
+	<div class="alert alert-danger">{{ message }}</div>
+{% endfor %}
+
+<form action="{{ path( 'admin/comments/update', { 'id': comment.id }) }}" method="post">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>Contenido</label>
+				<textarea class="form-control" name="content">{{ comment.content }}</textarea>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<input class="btn btn-default" type="submit" value="Actualizar comment">
+			</div>
+		</div>
+	</div>
+</form>
+
+{% endblock %}

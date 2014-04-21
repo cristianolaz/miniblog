@@ -1,0 +1,39 @@
+{% extends "admin/template.twig" %}
+{% block content %}
+
+<div>
+	<ol class="breadcrumb">
+		<li><a href="{{ path( 'admin/dashboard' ) }}">Dashboard</a></li>
+		<li>Categories</li>
+		<li>Update</li>
+		<li class="active">{{ category.category }}</li>
+	</ol>
+</div>
+
+{% for message in app.session.getFlashBag.get('validation.category') %}
+	<div class="alert alert-danger">{{ message }}</div>
+{% endfor %}
+
+<form action="{{ path( 'admin/categories/update', { 'id': category.id }) }}" method="post">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label>Categoría</label>
+				<input class="form-control" name="category" type="text" value="{{ category.category }}">
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label>Slug</label>
+				<input class="form-control" name="slug" type="text" value="{{ category.slug }}">
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<input class="btn btn-default" type="submit" value="Actualizar categoría">
+			</div>
+		</div>
+	</div>
+</form>
+
+{% endblock %}

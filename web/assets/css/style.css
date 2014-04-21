@@ -1,0 +1,28 @@
+.post { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+.col-md-3 .post:last-child { border-bottom: none; }
+.post header img { width: 100%; }
+.post .post-title { margin-top: 7px; margin-bottom: 5px; font-size: 20px; }
+.post section { color: #888; font-size: 18px; }
+
+.widget { margin-bottom: 25px; }
+.widget h3 { text-transform: uppercase; color: #444; font-weight: bold; font-size: 13px; margin: 10px 0px; }
+
+.horizontal-menu { border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 20px 0px; }
+.horizontal-menu ul { text-align: center; }
+.horizontal-menu .nav-pills li { float: none; display: inline-block; }
+.horizontal-menu .nav-pills li a { text-transform: uppercase; color: #444; font-weight: bold; font-size: 13px; padding: 20px; }
+.horizontal-menu .nav-pills li a:hover { background: none; color: #0093bf; }
+
+.site-footer { padding: 20px inherit; border-top: 1px solid #ddd; margin-top: 20px; color: #444; font-size: 13px; }
+
+#post { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed #ddd; }
+#post #post-category { font-size: 12px;font-weight: bold;text-transform: uppercase;color: #444; }
+#post #post-title { color: #0093bf; }
+#post #post-thumbnail { padding-bottom: 20px; }
+#post #post-thumbnail img { width: 100%; }
+#post #post-content { font-size: 16px; }
+
+.comments-list { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed #ddd; }
+.comments-list:before { content: "Comentarios:"; font-size: 12px; color: #777; text-transform: uppercase; font-weight: bold; }
+.comments-list .comment { padding: 10px; color: #444; border-bottom: 1px solid #eee; border-left: 3px solid #0093bf; }
+.comments-list .comment:last-child { border-bottom: none; }

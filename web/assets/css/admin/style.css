@@ -1,0 +1,309 @@
+.nav-collapse.collapse{
+	display:inline}
+#sidebar>ul>li.active>ul.sub,#sidebar>ul>li>ul.sub>li>a{
+	display:block}
+ul.sidebar-menu li ul.sub li a:hover,ul.sidebar-menu li ul.sub li.active a{
+	display:block}
+ul.sidebar-menu li a.active,ul.sidebar-menu li a:hover,ul.sidebar-menu li a:focus{
+	display:block}
+.panel-footer.revenue-foot ul li a:hover i,.panel-footer.revenue-foot ul li.active a i{
+	display:block}
+.mail-option .chk-all,.mail-option .btn-group a.btn,.compose-mail .form-group{
+	display:inline-block}
+.cmxform .form-group label.error{
+	display:inline}
+.alert-danger .alert-icon{
+	background-color:#fcb1ae}
+.alert-danger .notification-info a{
+	color:#fb6f6b}
+.alert-success,.alert-danger,.alert-info,.alert-warning{
+	border:none}
+.nav-collapse.collapse{
+	display:inline}
+#sidebar>ul>li.active>ul.sub,#sidebar>ul>li>ul.sub>li>a{
+	display:block}
+ul.sidebar-menu li ul.sub li a:hover,ul.sidebar-menu li ul.sub li.active a{
+	display:block}
+ul.sidebar-menu li a.active,ul.sidebar-menu li a:hover,ul.sidebar-menu li a:focus{
+	display:block}
+.dropdown-menu.extended .alert{
+	margin-bottom:10px}
+.timeline-desk .panel{
+	display:block}
+.panel-footer.revenue-foot ul li a:hover i,.panel-footer.revenue-foot ul li.active a i{
+	display:block}
+.mail-option .chk-all,.mail-option .btn-group a.btn,.dataTables_paginate.paging_bootstrap.pagination li a{
+	display:inline-block}
+.alert-info .alert-icon{
+	background-color:#99cce3}
+.alert-info .notification-info a{
+	color:#45a2c9}
+.nav-collapse.collapse{
+	display:inline}
+#sidebar>ul>li.active>ul.sub,#sidebar>ul>li>ul.sub>li>a{
+	display:block}
+ul.sidebar-menu li ul.sub li a:hover,ul.sidebar-menu li ul.sub li.active a{
+	display:block}
+ul.sidebar-menu li a.active,ul.sidebar-menu li a:hover,ul.sidebar-menu li a:focus{
+	display:block}
+.timeline-desk .panel{
+	display:block}
+.panel-footer.revenue-foot ul li a:hover i,.panel-footer.revenue-foot ul li.active a i{
+	display:block}
+.mail-option .chk-all,.mail-option .btn-group a.btn,.dataTables_paginate.paging_bootstrap.pagination li a{
+	display:inline-block}
+.form-control{
+	border:1px solid #e2e2e4;box-shadow:none;}
+.form-control:focus,#focusedInput{
+	border:1px solid #00a8b3;box-shadow:none}
+.btn-default{
+	/*background-color:#c7cbd6;border-color:#c7cbd6;color:#fff;*/
+	background-color: #9C9C9C;border-color: #888888;color: #fff;
+}
+.has-success .form-control:focus,.has-error .form-control:focus,.has-warning .form-control:focus{
+	box-shadow:none}
+.form-signin .form-control{
+	position:relative;font-size:16px;height:auto;padding:10px;box-sizing:border-box}
+.form-signin .form-control:focus{
+	z-index:2}
+.user-login-info .form-control:last-child{
+	margin-bottom:0!important}
+.nav-collapse.collapse{
+	display:inline}
+#sidebar>ul>li.active>ul.sub,#sidebar>ul>li>ul.sub>li>a{
+	display:block}
+ul.sidebar-menu li ul.sub li a:hover,ul.sidebar-menu li ul.sub li.active a{
+	display:block}
+ul.sidebar-menu li a.active,ul.sidebar-menu li a:hover,ul.sidebar-menu li a:focus{
+	display:block}
+.panel-footer.revenue-foot ul li a:hover i,.panel-footer.revenue-foot ul li.active a i{
+	display:block}
+.mail-option .chk-all,.mail-option .btn-group a.btn{
+	display:inline-block}
+.compose-mail .form-group{
+	border:1px solid #f2f3f6;display:inline-block;width:100%;margin-bottom:0}
+.compose-mail .form-group label{
+	line-height:34px;width:10%;float:left;padding-left:5px;margin-bottom:0}
+.form-horizontal.bucket-form .form-group{
+	border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#eff2f7;padding-bottom:15px;margin-bottom:15px}
+.form-horizontal.bucket-form .form-group:last-child{
+	border-bottom-style:none;padding-bottom:0;margin-bottom:0}
+.form-horizontal.bucket-form .form-group .help-block{
+	margin-bottom:0}
+.cmxform .form-group label.error{
+	display:inline;margin:5px 0;color:#b94a48;font-weight:400}
+input:focus:invalid:focus,textarea:focus:invalid:focus,select:focus:invalid:focus,.cmxform .form-group input.error,.cmxform .form-group textarea.error{
+	border-color:#b94a48!important}
+.wysihtml5-toolbar .btn-default{
+	background-color:#fff;color:#757575;background-position:initial initial;background-repeat:initial initial}
+.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open .dropdown-toggle.btn-default{
+	/*background-color:#b0b5b9;border-color:#b0b5b9;color:#fff;*/
+	background-color: #7C7C7C;border-color: #888888;color: #fff;
+}
+.btn-primary{
+	background-color:#1fb5ad;border-color:#1fb5ad;color:#fff}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary{
+	background-color:#1ca59e;border-color:#1ca59e;color:#fff}
+.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open .dropdown-toggle.btn-success{
+	background-color:#88a755;border-color:#88a755;color:#fff}
+.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open .dropdown-toggle.btn-info{
+	background-color:#53bee6;border-color:#53bee6;color:#fff}
+.btn-warning:hover,.btn-warning:focus,.btn-warning:active,.btn-warning.active,.open .dropdown-toggle.btn-warning{
+	background-color:#e4ba00;border-color:#e4ba00;color:#fff}
+.btn-danger{
+	background-color:#fa8564;border-color:#fa8564;color:#fff}
+.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open .dropdown-toggle.btn-danger{
+	background-color:#ec6459;border-color:#ec6459;color:#fff}
+.btn-group.open .dropdown-toggle,.btn-white.active,.btn:active,.btn.active{
+	box-shadow:none}
+.breadcrumb{
+	/*background-color:#fff;*/
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus{
+	background-color:#474752}
+.nav-justified li:last-child>a:hover,.nav-justified li.active:last-child>a{
+	border-top-left-radius:0!important;border-top-right-radius:4px!important;border-bottom-right-radius:0!important;border-bottom-left-radius:0!important}
+.list-group-item.active,.list-group-item.active:hover,.list-group-item.active:focus{
+	background-color:#00a8b3;border-color:#00a8b3;color:#fff;z-index:2}
+.pagination>li>a,.pagination>li>span{
+	background-color:#eff2f7;border:1px solid #eff2f7;float:left;line-height:1.42857;margin-left:1px;padding:6px 12px;position:relative;text-decoration:none}
+.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus,.pagination>li.active>a,.pagination>li.active>a:hover{
+	background-color:#2eb4ad;border-color:#2eb4ad;color:#fff}
+.active .dcjq-icon{
+	background-image:url(http://localhost/silex-blog/web/assets/css/images/nav-expand.png)}
+.active .dcjq-icon,.right-side-accordion .active .dcjq-icon{
+	border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;background-position:50% 100%;background-repeat:no-repeat no-repeat}
+.right-side-accordion .active .dcjq-icon{
+	background-image:url(http://localhost/silex-blog/web/assets/css/images/acc-expand.png)}
+.nav-collapse.collapse{
+	display:inline}
+#sidebar>ul>li.active>ul.sub,#sidebar>ul>li>ul.sub>li>a{
+	display:block}
+ul.sidebar-menu li ul.sub li a:hover,ul.sidebar-menu li ul.sub li.active a{
+	color:#1fb5ad;transition:all .3s ease;-webkit-transition:all .3s ease;display:block;background-color:#202025;background-position:initial initial;background-repeat:initial initial}
+ul.sidebar-menu li a.active,ul.sidebar-menu li a:hover,ul.sidebar-menu li a:focus{
+	background-color:#28282e;color:#1fb5ad;display:block;transition:all .3s ease;-webkit-transition:all .3s ease;background-position:initial initial;background-repeat:initial initial}
+ul.sidebar-menu li a.active i{
+	color:#1fb5ad}
+.panel.terques-chart .chart-tittle .value a:hover,.panel.terques-chart .chart-tittle .value a.active{
+	color:#55f2e7;font-size:12px}
+.time-show .btn{
+	width:150px}
+.timeline-desk .panel{
+	display:block}
+.panel-footer.revenue-foot ul li a:hover,.panel-footer.revenue-foot ul li.active a{
+	background-color:#fff;position:relative;background-position:initial initial;background-repeat:initial initial}
+.panel-footer.revenue-foot ul li a:hover i,.panel-footer.revenue-foot ul li.active a i{
+	color:#ff6c60;display:block;font-size:16px}
+ul.ft-link li a:hover,ul.ft-link li.active a{
+	color:#58c9f3}
+.social-footer ul li a:hover i.fa-facebook,.social-footer ul li.active a i.fa-facebook{
+	color:#486eac}
+.social-footer ul li a:hover i.fa-twitter,.social-footer ul li.active a i.fa-twitter{
+	color:#58c9f3}
+.social-footer ul li a:hover i.fa-google-plus,.social-footer ul li.active a i.fa-google-plus{
+	color:#4a4a4a}
+.social-footer ul li a:hover i.fa-pinterest,.social-footer ul li.active a i.fa-pinterest{
+	color:#d1282d}
+.mail-nav>li.active>a,.mail-nav>li.active>a:hover,.mail-nav>li.active>a:focus{
+	background-color:#fafafa;color:#1fb5ad;border-right-width:3px;border-right-style:solid;border-right-color:#1fb5ad;background-position:initial initial;background-repeat:initial initial}
+ul.inbox-nav li a:hover,ul.inbox-nav li.active a,ul.inbox-nav li a:focus{
+	color:#6a6a6a;background-color:#d5d7de;background-position:initial initial;background-repeat:initial initial}
+.pagination li a{
+	color:#32323a}
+.mail-option .chk-all,.mail-option .btn-group a.btn{
+	border:1px solid #e7e7e7;padding:5px 10px;display:inline-block;background-color:#fcfcfc;color:#afafaf;border-top-left-radius:3px!important;border-top-right-radius:3px!important;border-bottom-right-radius:3px!important;border-bottom-left-radius:3px!important;background-position:initial initial;background-repeat:initial initial}
+.profile-nav ul>li>a:hover,.profile-nav ul>li>a:focus,.profile-nav ul li.active a{
+	background-color:#f8f7f5!important;color:#89817f!important;background-position:initial initial!important;background-repeat:initial initial!important}
+.dataTables_paginate.paging_bootstrap.pagination li{
+	float:left;margin:0 1px;border:1px solid #ddd;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;list-style:none}
+.dataTables_paginate.paging_bootstrap.pagination li.disabled a{
+	color:#c7c7c7}
+.dataTables_paginate.paging_bootstrap.pagination li a{
+	color:#797979;padding:5px 10px;display:inline-block}
+.dataTables_paginate.paging_bootstrap.pagination li:hover a,.dataTables_paginate.paging_bootstrap.pagination li.active a{
+	color:#797979;background-color:#eee;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;background-position:initial initial;background-repeat:initial initial}
+.dataTables_paginate.paging_bootstrap.pagination{
+	float:right;margin-top:-5px;margin-bottom:15px}
+.tab-head .nav-tabs>li.active>a,.tab-head .nav-tabs>li>a:hover,.tab-head .nav-tabs>li.active>a:hover,.tab-head .nav-tabs>li.active>a:focus{
+	background-color:#f1f2f7;border-color:#f1f2f7;color:#797979}
+.tab-bg-dark-navy-blue li a:hover,.tab-bg-dark-navy-blue li.active a{
+	border-top-left-radius:0!important;border-top-right-radius:0!important;border-bottom-right-radius:0!important;border-bottom-left-radius:0!important;background-color:#fff!important;color:#1fb5ad!important;background-position:initial initial!important;background-repeat:initial initial!important}
+.carousel-indicators .active{
+	background-color:#333;height:10px;margin:1px;width:10px;background-position:initial initial;background-repeat:initial initial}
+.icheck div,.icheck .disabled{
+	float:left}
+.add-on .btn{
+	padding:9px}
+.daterangepicker td.active,.daterangepicker td.active:hover,.datepicker td.active:hover,.datepicker td.active:hover:hover,.datepicker td.active:active,.datepicker td.active:hover:active,.datepicker td.active.active,.datepicker td.active.active:hover,.datepicker td.active.disabled,.datepicker td.active.disabled:hover,.datepicker td.active[disabled],.datepicker td.active[disabled]:hover,.datepicker td span.active:hover,.datepicker td span.active:active,.datepicker td span.active.active,.datepicker td span.active.disabled,.datepicker td span.active[disabled]{
+	background-color:#41cac0;background-position:initial initial;background-repeat:initial initial}
+.daterangepicker td.active,.daterangepicker td.active:hover,.datepicker td.active,.datepicker td.active:hover,.datepicker td span.active{
+	text-shadow:none}
+ul.clock-category li a:hover,ul.clock-category li a.active{
+	color:#1fb5ad!important;background-image:none!important;background-position:initial initial!important;background-repeat:initial initial!important}
+ul.clock-category li a:hover i,ul.clock-category li a.active i{
+	color:#1fb5ad!important}
+.ullist li.active a{
+	background-color:#fff;border-bottom-color:#fff;border-bottom-width:1px;border-bottom-style:solid;position:relative;top:1px;margin-bottom:-1px;background-position:initial initial;background-repeat:initial initial}
+.spinner-buttons.btn-group-vertical .btn{
+	height:17px;margin:0;padding-left:6px;padding-right:6px;text-align:center;width:22px}
+.spinner-buttons.btn-group-vertical .btn i{
+	margin-top:-3px}
+.spinner-buttons.btn-group-vertical .btn:first-child{
+	border-top-left-radius:0!important;border-top-right-radius:4px!important;border-bottom-right-radius:0!important;border-bottom-left-radius:0!important}
+.spinner-buttons.btn-group-vertical .btn:last-child{
+	border-top-left-radius:0!important;border-top-right-radius:0!important;border-bottom-right-radius:4px!important;border-bottom-left-radius:0!important}
+.most-popular .price-actions .btn{
+	cursor:pointer;background-color:#1fb5ad!important;background-position:initial initial!important;background-repeat:initial initial!important}
+.pricing-table .price-actions .btn{
+	border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;background-color:#7d7d7d;color:#fff;border:none;box-shadow:none;text-shadow:none;padding:10px 20px;cursor:pointer;background-position:initial initial;background-repeat:initial initial}
+.stat-btn.active{
+	background-color:#422c50;color:#cab1d9}
+.select-layout li a,.layout-option li a,.layout-option li .btn{
+	border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;font-size:12px;padding:3px 10px;margin-right:5px}
+.pagination-table ul{
+	margin:0;float:right}
+a{
+	color:#32323a}
+a:hover{
+	color:#222227}
+.panel{
+	box-shadow:none}
+.panel-heading{
+	border-color:#eff2f7;font-size:13px;font-weight:400;background-color:#fafafa;text-transform:uppercase;padding:15px;background-position:initial initial;background-repeat:initial initial}
+input,textarea,select,button{
+	outline:none!important}
+ul{
+	padding-left:0}
+.panel-default>.panel-heading{
+	background-color:#fff;border-color:#ddd;color:#797979}
+.table thead>tr>th,.table tbody>tr>th,.table tfoot>tr>th,.table thead>tr>td,.table tbody>tr>td,.table tfoot>tr>td{
+	padding:10px}
+.panel-group .panel+.panel{
+	margin-top:1px}
+html{
+	text-rendering:optimizelegibility!important;-webkit-font-smoothing:antialiased!important}
+body{
+	color:#555;}
+.nav-collapse.collapse{
+	display:inline}
+#sidebar .sub-menu>.sub li a{
+	padding-left:46px}
+ul.sidebar-menu li.sub-menu{
+	line-height:15px}
+#top_menu .nav>li,ul.top-menu>li{
+	float:left}
+.top-nav .nav .caret{
+	border-bottom-color:#a4aaba;border-top-color:#a4aaba}
+.timeline-desk .panel{
+	display:block;margin-left:45px;position:relative;text-align:left;background-color:#fff;background-position:initial initial;background-repeat:initial initial;margin-bottom:5px}
+.timeline-item.alt .panel{
+	margin-left:0;margin-right:45px}
+.panel-heading .nav{
+	border:medium none;font-size:13px;margin:-15px}
+.panel-heading .nav>li>a,.panel-heading .nav>li.active>a,.panel-heading .nav>li.active>a:hover,.panel-heading .nav>li.active>a:focus{
+	border-width:0;border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
+.panel-heading .nav>li>a{
+	color:#898989}
+.panel-heading .nav>li.active>a,.panel-heading .nav>li>a:hover{
+	color:#1fb5ad;background-color:#fff;background-position:initial initial;background-repeat:initial initial}
+.panel-heading .nav>li:first-child.active>a,.panel-heading .nav>li:first-child>a:hover{
+	border-top-left-radius:4px!important;border-top-right-radius:0!important;border-bottom-right-radius:0!important;border-bottom-left-radius:0!important}
+.panel-heading.tab-right .nav>li:first-child.active>a,.tab-right.panel-heading .nav>li:first-child>a:hover{
+	border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
+.panel-heading.tab-right .nav>li:last-child.active>a,.tab-right.panel-heading .nav>li:last-child>a:hover{
+	border-top-left-radius:0;border-top-right-radius:4px;border-bottom-right-radius:0;border-bottom-left-radius:0}
+.full-width .nav>li>a:hover,.full-width .nav li.active a,.full-width .nav li.dropdown a:hover,.full-width .nav li.dropdown.open a:focus,.full-width .nav .open>a,.full-width .nav .open>a:hover,.full-width .nav .open>a:focus{
+	background-color:#1fb5ad;text-decoration:none;color:#fff;-webkit-transition:all .3s ease 0;transition:all .3s ease 0;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-right-radius:30px;border-bottom-left-radius:30px}
+.sortable .panel .panel-heading{
+	cursor:move}
+body{
+	background-color:#fff;background-position:initial initial;background-repeat:initial initial}
+.panel{
+	border:1px solid #e0e0e0}
+#wrapper{
+	padding-left:250px}
+#wrapper,#sidebar-wrapper{
+	background-color:#32323a;background-position:initial initial;background-repeat:initial initial}
+#sidebar-wrapper{
+	margin-left:-250px;left:250px;width:250px;position:fixed;height:100%;overflow-y:auto;z-index:1000}
+#sidebar-wrapper .nav-pills li{
+	border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgba(255,255,255,.0470588)}
+#sidebar-wrapper .nav-pills>li>a{
+	color:#aeb2b7;border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0;font-size:12px}
+#sidebar-wrapper .nav-pills>li>a:hover,#sidebar-wrapper .nav-pills>li>a.active{
+	background-color:#28282e;color:#1fb5ad;background-position:initial initial;background-repeat:initial initial}
+#sidebar-wrapper .sub-menu{
+	background-color:#2b2b33;background-position:initial initial;background-repeat:initial initial}
+#sidebar-wrapper .sub-menu li a{
+	padding-left:20px}
+#sidebar-wrapper .nav-stacked>li+li{
+	margin-top:0}
+#page-content-wrapper{
+	width:100%;background-color:#fff;background-position:initial initial;background-repeat:initial initial}
+.admin-container{
+	padding:15px}
+.admin-top-header {
+	padding:20px;color:#fff;background-color:#29b;background-position:initial initial;background-repeat:initial initial;
+}
+.admin-top-header a { color: #fff; }

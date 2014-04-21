@@ -1,0 +1,53 @@
+{% extends "admin/template.twig" %}
+{% block content %}
+
+<div>
+	<ol class="breadcrumb">
+		<li><a href="{{ path( 'admin/dashboard' ) }}">Dashboard</a></li>
+		<li class="active">Comments</li>
+	</ol>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<div class="panel">
+			<div class="panel-heading">Comments</div>
+			<div class="panel-body">
+				<table class="table table-bordered">
+					<tr>
+						<th>ID</th>
+						<th>CONTENT</th>
+						<th>EDIT</th>
+						<th>DELETE</th>
+					</tr>
+					{% for comment in comments %}
+						<tr>
+							<td>{{ comment.id }}</td>
+							<td>{{ comment.content }}</td>
+							<td><a class="btn btn-primary" href="{{ path( 'admin/comments/update', { 'id': comment.id }) }}">Editar</a></td>
+							<td>
+								<form action="{{ path( 'admin/comments/delete' ) }}" method="post">
+									<input type="hidden" name="comment_id" value="{{ comment.id }}">
+									<input class="btn btn-danger" type="submit" value="Borrar">
+								</form>
+							</td>
+						</tr>
+					{% else %}
+						<tr><td colspan="4">No hay comentarios</td></tr>
+					{% endfor %}
+				</table>
+				<div class="pagination-table">
+					<ul class="pagination">
+						<li class="prev {% if page == 1 %}disabled{% endif %}"><a href="{{ path('admin/comments/read', { 'page': page - 1 }) }}">Anterior</a></li>
+						<li class="next"><a href="{{ path( 'admin/comments/read', { 'page': page + 1 }) }}">Siguiente</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel-footer">
+				Mostrando {{ comments|length }} registros
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}

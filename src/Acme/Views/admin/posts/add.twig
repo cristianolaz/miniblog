@@ -1,0 +1,61 @@
+{% extends "admin/template.twig" %}
+{% block content %}
+
+<div>
+	<ol class="breadcrumb">
+		<li><a href="{{ path( 'admin/dashboard' ) }}">Dashboard</a></li>
+		<li>Posts</li>
+		<li class="active">Add</li>
+	</ol>
+</div>
+
+{% for message in app.session.getFlashBag.get('validation.post') %}
+	<div class="alert alert-danger">{{ message }}</div>
+{% endfor %}
+
+<form action="{{ path( 'admin/posts/add' ) }}" method="post">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label>Título</label>
+				<input class="form-control" name="title" type="text">
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label>Slug</label>
+				<input class="form-control" name="slug" type="text">
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label>Categoría</label>
+				<select name="categories_id" class="form-control">
+					<option>Sin categoría</option>
+					{% for category in categories %}
+						<option value="{{ category.id }}">{{ category.category }}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label>Imagen de presentación (opcional)</label>
+				<input class="form-control" name="thumbnail" placeholder="http://ejemplo/imagen.jpg" type="text">
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>Contenido</label>
+				<textarea class="form-control" name="content"></textarea>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<input class="btn btn-default" type="submit" value="Publicar post">
+			</div>
+		</div>
+	</div>
+</form>
+
+{% endblock %}

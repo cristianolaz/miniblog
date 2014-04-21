@@ -1,0 +1,63 @@
+{% extends "template.twig" %}
+{% block content %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			{% for post in posts %}
+				{% if ( loop.index + 2 ) is divisible by( 3 ) %}			
+				<article class="post">
+					<header>
+						{% if post.thumbnail %}<img src="{{ post.thumbnail }}">{% endif %}
+						<h3 class="post-title"><a href="{{ path( 'view-post', { 'id': post.id, 'slug': post.slug }) }}">{{ post.title }}</a></h3>
+					</header>
+					<section>
+						{{ post.content|slice(0,100) }}
+					</section>
+				</article>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class="col-md-3">
+			{% for post in posts %}
+				{% if ( loop.index + 1 ) is divisible by( 3 ) %}
+					<article class="post">
+						<header>
+							{% if post.thumbnail %}<img src="{{ post.thumbnail }}">{% endif %}
+							<h3 class="post-title"><a href="{{ path( 'view-post', { 'id': post.id, 'slug': post.slug }) }}">{{ post.title }}</a></h3>
+						</header>
+						<section>
+							{{ post.content|slice(0,100) }}
+						</section>
+					</article>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class="col-md-3">
+			{% for post in posts %}
+				{% if ( loop.index ) is divisible by( 3 ) %}
+					<article class="post">
+						<header>
+							{% if post.thumbnail %}<img src="{{ post.thumbnail }}">{% endif %}
+							<h3 class="post-title"><a href="{{ path( 'view-post', { 'id': post.id, 'slug': post.slug }) }}">{{ post.title }}</a></h3>
+						</header>
+						<section>
+							{{ post.content|slice(0,100) }}
+						</section>
+					</article>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class="col-md-3">
+			<div class="widget">
+				<h3>Publicaciones populares</h3>
+				<ul>
+					{% for post in popular_posts %}
+						<li><a href="{{ path( 'view-post', { 'id': post.id, 'slug': post.slug }) }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "admin/template.twig" %}
+{% block content %}
+
+<div>
+	<ol class="breadcrumb">
+		<li><a href="{{ path( 'admin/dashboard' ) }}">Dashboard</a></li>
+		<li class="active">Categories</li>
+	</ol>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<div class="panel">
+			<div class="panel-heading">Categories</div>
+			<div class="panel-body">
+				<table class="table table-bordered">
+					<tr>
+						<th>ID</th>
+						<th>CATEGORY</th>
+						<th>SLUG</th>
+						<th>EDIT</th>
+						<th>DELETE</th>
+					</tr>
+					{% for category in categories %}
+						<tr>
+							<td>{{ category.id }}</td>
+							<td>{{ category.category }}</td>
+							<td>{{ category.slug }}</td>
+							<td><a class="btn btn-primary" href="{{ path( 'admin/categories/update', { 'id': category.id }) }}">Editar</a></td>
+							<td>
+								<form action="{{ path( 'admin/categories/delete' ) }}" method="post">
+									<input type="hidden" name="category_id" value="{{ category.id }}">
+									<input class="btn btn-danger" type="submit" value="Borrar">
+								</form>
+							</td>
+						</tr>
+					{% else %}
+						<tr><td colspan="4">No hay categorías</td></tr>
+					{% endfor %}
+				</table>
+				<div class="pagination-table">
+					<ul class="pagination">
+						<li class="prev {% if page == 1 %}disabled{% endif %}"><a href="{{ path('admin/categories/read', { 'page': page - 1 }) }}">Anterior</a></li>
+						<li class="next"><a href="{{ path( 'admin/categories/read', { 'page': page + 1 }) }}">Siguiente</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel-footer">
+				Mostrando {{ categories|length }} registros
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}

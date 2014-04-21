@@ -1,0 +1,46 @@
+{% extends "admin/template.twig" %}
+{% block content %}
+<div class="row">
+	<div class="col-md-8">
+		<div class="panel">
+			<div class="panel-heading">Últimas publicaciones</div>
+			<div class="panel-body">
+				<table class="table table-bordered">
+					{% for post in last_posts %}
+						<tr>
+							<td>
+								<strong>{{ post.title }}</strong><br>
+								{{ post.content|slice(0,100) }}
+							</td>
+						</tr>
+					{% else %}
+						<tr>
+							<td>No hay publicaciones</td>
+						</tr>
+					{% endfor %}
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="panel">
+			<div class="panel-heading">Últimos comentarios</div>
+			<div class="panel-body">
+				<table class="table table-bordered">
+					{% for comment in last_comments %}
+						<tr>
+							<td>{{ comment.content|slice(0,100) }}</td>
+						</tr>
+					{% else %}
+						<tr>
+							<td>No hay comentarios</td>
+						</tr>
+					{% endfor %}
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}

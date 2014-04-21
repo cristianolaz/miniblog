@@ -1,0 +1,11 @@
+database:
+    driver: pdo_mysql
+    host: localhost
+    dbname: miniblog
+    user: usuario
+    password: contraseña
+    charset: utf8
+user:
+    title: Este es mi blog
+    description: Y esta es la descripción de mi blog
+    email: ejemplo@ejemplo.com

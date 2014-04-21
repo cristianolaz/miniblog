@@ -1,0 +1,22 @@
+{% extends "template.twig" %}
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<h1>Contacto</h1>
+			Puede ponerse en contacto conmigo a través de la siguiente dirección de correo electrónico: <strong>{{ settings.email }}</strong><br>
+			Le agradezco su interés.
+		</div>
+		<div class="col-md-3">
+			<div class="widget">
+				<h3>Publicaciones populares</h3>
+				<ul>
+					{% for post in popular_posts %}
+						<li><a href="{{ path( 'view-post', { 'id': post.id, 'slug': post.slug }) }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

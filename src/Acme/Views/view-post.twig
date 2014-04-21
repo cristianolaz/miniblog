@@ -1,0 +1,55 @@
+{% extends "template.twig" %}
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<div id="post">
+				<div id="post-category">Categoría: {{ post.category }}</div>
+				<h1 id="post-title">{{ post.title }}</h1>
+				{% if post.thumbnail %}
+					<div id="post-thumbnail">
+						<img src="{{ post.thumbnail }}">
+					</div>
+				{% endif %}
+				<div id="post-content">
+					{{ post.content }}
+				</div>
+			</div>
+
+			<div class="comments-list">
+				{% for comment in comments %}
+					<div class="comment">{{ comment.content }}</div>
+				{% else %}
+					<div>No hay comentarios</div>
+				{% endfor %}
+			</div>
+			
+			{% for message in app.session.getFlashBag.get('message') %}
+				<div class="alert alert-info">{{ message }}</div>
+			{% endfor %}
+			
+			<div>
+				<form action="{{ path( 'leave-comment', { 'post_id': post.id }) }}" method="post">
+					<div class="form-group">
+						<label>Tu comentario</label>
+						<textarea class="form-control" name="content"></textarea>
+					</div>
+					<div class="form-group">
+						<input type="submit" class="btn btn-default" value="Dejar comentario">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="widget">
+				<h3>Publicaciones populares</h3>
+				<ul>
+					{% for post in popular_posts %}
+						<li><a href="{{ path( 'view-post', { 'id': post.id, 'slug': post.slug }) }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
